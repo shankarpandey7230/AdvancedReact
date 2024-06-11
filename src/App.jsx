@@ -1,11 +1,12 @@
-import { useState } from 'react';
-
 import './App.css';
+import UseState from './UseState';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <div className="App">
+      <UseState />;
+    </div>
+  );
 }
 
 export default App;
