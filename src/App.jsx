@@ -1,12 +1,14 @@
 import './App.css';
-import UseState from './UseState';
+// import UseState from './components/UseState';
+
+import UseStateObject from './components/UseStateObject';
 
 function App() {
   return (
     <div className="App">
-      <UseState />;
+      {/* <UseState />; */}
+      <UseStateObject />
     </div>
   );
 }
-
 export default App;
