@@ -47,3 +47,19 @@ Currently, two official plugins are available:
 By default, React uses a technique called "auto-batching" to group state updates that occur within the same event loop into a single update. This means if you call the state update function multiple times in a short period of time, React will only perform a single re-render for all of the updates.
 
 React 18 ensures that state updates invoked from any location will be batched by default. This will batch state updates, including native event handlers, asynchronous operations, timeouts and intervals
+
+###Gotcha
+===> The state update function does not immediately mutate the state. It schedules an update to the state and tells React that it needs to re-render the component. The actual state update will be performed as part of the next rendering cycle. When we need to set the state values based on the state value so we have to be mindful.
+
+## to update the state immediately and synchronously
+
+We can pass a function to setState that receives the previous state as an arguments and returns the new state.
+
+##### UseEffect :
+
+    - is a hook in React that allows to perform side effects in a function components. Some examples of side effects are : subscriptions, fetching data directly updating DOM, event listeners, timers etc;
+
+-- It accepts two arguments second one is optional.
+-- First argument is callback function and second argument is dependency array.
+-- by default runs on each render (initial and re-render)
+-- if dependency array empty [] then it runs only on initial render.
