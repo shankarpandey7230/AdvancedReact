@@ -71,3 +71,22 @@ setup UseEffect(make sure it runs only on initial render) and stateValue
 //Url provided and can use either .then or async
 set users equal to result
 iterate over the list and display image, user name and link
+
+### Multiple Returns -Fetch Data
+
+Setting up the challenge : ,practice on setting up state values and data fetching
+.create state variable
+.fetch data from the url
+. if we see our user object in the console
+
+## Data Fetching
+
+..Usually three options
+
+1. loading- waiting for data to arrive (display loading state);
+2. error - there was an error (display error message)
+3. success - received data (display data);
+
+#### Fetch Errors Gotcha
+
+Unlike for example axios, by default, the fetch() API does not consider HTTP status codes in the 4XX or 5XX range to be errors. Instead it considers these status codes to be indicative of a successful request.

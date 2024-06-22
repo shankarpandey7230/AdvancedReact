@@ -7,7 +7,8 @@ import './App.css';
 
 // import UseEffectBasics from './components/UseEffectBasics';
 // import UseEffectMultiple from './components/UseEffectMultiple';
-import FetchData from './components/FetchData';
+// import FetchData from './components/FetchData';
+import MultipleReturnsFetchData from './components/MultipleReturnsFetchData';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <SetTimeOutEg /> */}
       {/* <UseEffectBasics /> */}
       {/* <UseEffectMultiple /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      <MultipleReturnsFetchData />
     </div>
   );
 }
