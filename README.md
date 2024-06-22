@@ -63,3 +63,11 @@ We can pass a function to setState that receives the previous state as an argume
 -- First argument is callback function and second argument is dependency array.
 -- by default runs on each render (initial and re-render)
 -- if dependency array empty [] then it runs only on initial render.
+
+#### Fetch DAta:
+
+setup UseEffect(make sure it runs only on initial render) and stateValue
+-- In the callback function, create a function which performs fetch functionality.
+//Url provided and can use either .then or async
+set users equal to result
+iterate over the list and display image, user name and link

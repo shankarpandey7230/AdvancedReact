@@ -5,7 +5,9 @@ import './App.css';
 // import UseStateGotcha from './components/UseStateGotcha';
 // import SetTimeOutEg from './components/SetTimeOutEg';
 
-import UseEffectBasics from './components/UseEffectBasics';
+// import UseEffectBasics from './components/UseEffectBasics';
+// import UseEffectMultiple from './components/UseEffectMultiple';
+import FetchData from './components/FetchData';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <UseStateObject /> */}
       {/* <UseStateGotcha /> */}
       {/* <SetTimeOutEg /> */}
-      <UseEffectBasics />
+      {/* <UseEffectBasics /> */}
+      {/* <UseEffectMultiple /> */}
+      <FetchData />
     </div>
   );
 }
