@@ -10,7 +10,9 @@ import './App.css';
 // import FetchData from './components/FetchData';
 // import MultipleReturnsFetchData from './components/MultipleReturnsFetchData';
 // import ShortCircuitOverview from './components/ShortCircuitOverview';
-import ShortCircuitExamples from './components/ShortCircuitExamples';
+// import ShortCircuitExamples from './components/ShortCircuitExamples';
+// import ToggleChallenge from './components/ToggleChallenge';
+import UserChallenge from './components/UserChallenge';
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
       {/* <FetchData /> */}
       {/* <MultipleReturnsFetchData /> */}
       {/* <ShortCircuitOverview /> */}
-      <ShortCircuitExamples />
+      {/* <ShortCircuitExamples /> */}
+      {/* <ToggleChallenge /> */}
+      <UserChallenge />
     </div>
   );
 }
