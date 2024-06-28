@@ -13,6 +13,7 @@ import './App.css';
 // import ShortCircuitExamples from './components/ShortCircuitExamples';
 // import ToggleChallenge from './components/ToggleChallenge';
 import UserChallenge from './components/UserChallenge';
+import Cleanupfunction from './components/UseEffect/Cleanupfunction';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <ShortCircuitOverview /> */}
       {/* <ShortCircuitExamples /> */}
       {/* <ToggleChallenge /> */}
-      <UserChallenge />
+      {/* <UserChallenge /> */}
+      <Cleanupfunction />
     </div>
   );
 }
