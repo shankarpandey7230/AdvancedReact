@@ -110,3 +110,9 @@ The && operator (logical AND ) returns the first operand if it is "falsy", or th
 The || operator (logical OR) returns the first operand if it is "truthy", or the second operand if the first operand is "falsy".
 
 Short-circuit evaluation can be useful in cases where we want to perform a certain action only if a certain condition is met, or we want to return default value if the certain condition is not met.
+
+## Ternary Operator:
+
+In JavaScript, the ternary operator is a way to concisely express a simple conditional statement, often called conditional operator or ternary conditional operator.
+condition ? exp1 : exp2
+If condition is true, operator returns exp1 and if false return exp2
