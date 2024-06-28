@@ -8,7 +8,8 @@ import './App.css';
 // import UseEffectBasics from './components/UseEffectBasics';
 // import UseEffectMultiple from './components/UseEffectMultiple';
 // import FetchData from './components/FetchData';
-import MultipleReturnsFetchData from './components/MultipleReturnsFetchData';
+// import MultipleReturnsFetchData from './components/MultipleReturnsFetchData';
+import ShortCircuitOverview from './components/ShortCircuitOverview';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <UseEffectBasics /> */}
       {/* <UseEffectMultiple /> */}
       {/* <FetchData /> */}
-      <MultipleReturnsFetchData />
+      {/* <MultipleReturnsFetchData /> */}
+      <ShortCircuitOverview />
     </div>
   );
 }

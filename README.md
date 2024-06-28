@@ -90,3 +90,23 @@ Setting up the challenge : ,practice on setting up state values and data fetchin
 #### Fetch Errors Gotcha
 
 Unlike for example axios, by default, the fetch() API does not consider HTTP status codes in the 4XX or 5XX range to be errors. Instead it considers these status codes to be indicative of a successful request.
+
+## React Hook Rule
+
+Don't call the hooks conditionally
+do not place after the return
+
+#### Truty and Falsy values:
+
+Vanilla JS:
+In Javascript, a value is considered "truthy" if it is evaluated to true when used in a boolean context. A value is considered "falsy" if it is evaluated to false when used in a boolean context.
+
+false 0 (zero) "" (empty string) null undefined NaN (Not a Number ). All other values, including objects and arrays are considered truthy.
+
+### Short Circuit Evaluation:
+
+Short-circuit evaluation is a technique that allows you to use logical operators (such as && and ||) to perform conditional evaluations in a concise way.
+The && operator (logical AND ) returns the first operand if it is "falsy", or the second operand if the first operand is "truthy".
+The || operator (logical OR) returns the first operand if it is "truthy", or the second operand if the first operand is "falsy".
+
+Short-circuit evaluation can be useful in cases where we want to perform a certain action only if a certain condition is met, or we want to return default value if the certain condition is not met.
