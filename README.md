@@ -116,3 +116,7 @@ Short-circuit evaluation can be useful in cases where we want to perform a certa
 In JavaScript, the ternary operator is a way to concisely express a simple conditional statement, often called conditional operator or ternary conditional operator.
 condition ? exp1 : exp2
 If condition is true, operator returns exp1 and if false return exp2
+
+## Default Values
+
+In JavaScript, when a function is defined we can specify default values for its parameters which if a caller of the function does not provide a value for a particular parameter, the default value will be used instead. Default parameters are defined by assigning a value to the parameter in function definition.

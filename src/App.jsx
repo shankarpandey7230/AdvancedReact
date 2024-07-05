@@ -12,8 +12,10 @@ import './App.css';
 // import ShortCircuitOverview from './components/ShortCircuitOverview';
 // import ShortCircuitExamples from './components/ShortCircuitExamples';
 // import ToggleChallenge from './components/ToggleChallenge';
-import UserChallenge from './components/UserChallenge';
-import Cleanupfunction from './components/UseEffect/Cleanupfunction';
+// import UserChallenge from './components/UserChallenge';
+// import Cleanupfunction from './components/UseEffect/Cleanupfunction';
+// import CleanupEvent from './components/UseEffect/CleanupEvent';
+import List from './components/Leverage/List';
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
       {/* <ShortCircuitExamples /> */}
       {/* <ToggleChallenge /> */}
       {/* <UserChallenge /> */}
-      <Cleanupfunction />
+      {/* <Cleanupfunction /> */}
+      {/* <CleanupEvent /> */}
+      <List />
     </div>
   );
 }
