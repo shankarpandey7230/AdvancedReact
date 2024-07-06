@@ -120,3 +120,21 @@ If condition is true, operator returns exp1 and if false return exp2
 ## Default Values
 
 In JavaScript, when a function is defined we can specify default values for its parameters which if a caller of the function does not provide a value for a particular parameter, the default value will be used instead. Default parameters are defined by assigning a value to the parameter in function definition.
+
+## Controlled Inputs
+
+The official documentation defines controlled input as:
+
+> > The React Component that renders an element also controls what happens in that element on subsequent user input. An input form element whose value is controlled by React in this way is called 'controlled inputs'
+> >
+> > > Two different concepts are important to make controlled inputs work:
+
+Component state
+onChange methods
+To change the properties of React components, the creation of a new component object to replace the original is necessary.
+
+## FormData API
+
+-- It is a great solution when you have bunch of inputs
+-- For this, inputs mush have name attribute
+The FormData Interface provides a way to construct a set of key/values pairs representing form fields and their values, which can be sent using the fetch() or XMLHttpRequest.send() method. It uses the same format a form would use if the encoding type were set .

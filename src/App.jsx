@@ -15,7 +15,12 @@ import './App.css';
 // import UserChallenge from './components/UserChallenge';
 // import Cleanupfunction from './components/UseEffect/Cleanupfunction';
 // import CleanupEvent from './components/UseEffect/CleanupEvent';
-import List from './components/Leverage/List';
+// import List from './components/Leverage/List';
+// import Controlled from './components/Form/Controlled';
+// import UserChallenge from './components/Form/UserChallenge';
+// import MultipleInputs from './components/Form/MultipleInputs';
+// import OtherInput from './components/Form/OtherInput';
+import UnControlled from './components/Form/UnControlled';
 
 function App() {
   return (
@@ -34,7 +39,12 @@ function App() {
       {/* <UserChallenge /> */}
       {/* <Cleanupfunction /> */}
       {/* <CleanupEvent /> */}
-      <List />
+      {/* <List /> */}
+      {/* <Controlled /> */}
+      {/* <UserChallenge /> */}
+      {/* <MultipleInputs /> */}
+      {/* <OtherInput /> */}
+      <UnControlled />
     </div>
   );
 }
