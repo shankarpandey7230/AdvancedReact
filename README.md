@@ -138,3 +138,9 @@ To change the properties of React components, the creation of a new component ob
 -- It is a great solution when you have bunch of inputs
 -- For this, inputs mush have name attribute
 The FormData Interface provides a way to construct a set of key/values pairs representing form fields and their values, which can be sent using the fetch() or XMLHttpRequest.send() method. It uses the same format a form would use if the encoding type were set .
+
+### Context API:
+
+-- Context lets parent component make some information available to any component in the tree below it -- no matter how deep-- without passing it explicitly through props.
+
+--- This can be done in three steps 1. Create a context. 2. Use that context from the component that needs the data. 3. Provide that context from the component that specifies data.

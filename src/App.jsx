@@ -20,7 +20,8 @@ import './App.css';
 // import UserChallenge from './components/Form/UserChallenge';
 // import MultipleInputs from './components/Form/MultipleInputs';
 // import OtherInput from './components/Form/OtherInput';
-import UnControlled from './components/Form/UnControlled';
+// import UnControlled fr om './components/Form/UnControlled';
+import Navbar from './components/PropsDrilling/Navbar';
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <UserChallenge /> */}
       {/* <MultipleInputs /> */}
       {/* <OtherInput /> */}
-      <UnControlled />
+      {/* <UnControlled /> */}
+      <Navbar />
     </div>
   );
 }
