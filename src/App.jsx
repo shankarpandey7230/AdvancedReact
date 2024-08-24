@@ -23,7 +23,9 @@ import './App.css';
 // import UnControlled fr om './components/Form/UnControlled';
 // import Navbar from './components/PropsDrilling/Navbar';
 // import Navbar from './components/ContextAPI/Navbar';
-import UseReducer from './components/useReducer/UseReducer';
+// import UseReducer from './components/useReducer/UseReducer';
+// import LowerState from './components/Performance/LowerState/index';
+import LowerStateChallenge from './components/Performance/LowerStateChallenge/index';
 
 function App() {
   return (
@@ -50,7 +52,9 @@ function App() {
       {/* <UnControlled /> */}
       {/* <Navbar /> */}
       {/* <Navbar /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      {/* <LowerState /> */}
+      <LowerStateChallenge />
     </div>
   );
 }

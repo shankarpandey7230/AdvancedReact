@@ -161,3 +161,11 @@ The FormData Interface provides a way to construct a set of key/values pairs rep
        .dispatch: It is a function that updates the state value and  always triggers a re-render, just like the updater function in useState.
        .reducer : is a function that houses all the logic of how the state gets updated, it takes state and action as arguments and returns the next state.
        .initialState: houses the initial value and can be of any type.
+
+#### Lower State Challenge
+
+When the component re-renders:
+
+- when the component's state or props change, React will re-render the component to reflect these changes.
+- when the parent element re-renders, even if the component's state or props have not changed.
+- lower state
