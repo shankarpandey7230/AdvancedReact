@@ -139,6 +139,11 @@ To change the properties of React components, the creation of a new component ob
 -- For this, inputs mush have name attribute
 The FormData Interface provides a way to construct a set of key/values pairs representing form fields and their values, which can be sent using the fetch() or XMLHttpRequest.send() method. It uses the same format a form would use if the encoding type were set .
 
+### Props Drilling:
+
+      Passing props to the components that uses it is a great way to explicitly pipe data through your UI tree, but in the long run it will be verbose and inconvenient if we have to pass some prop deeply through the tree, or if many components need the same prop.
+         The nearest common ancestor could be far removed from the components that need data and lifting state up that high can lead to prop drilling.
+
 ### Context API:
 
 -- Context lets parent component make some information available to any component in the tree below it -- no matter how deep-- without passing it explicitly through props.

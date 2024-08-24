@@ -21,7 +21,8 @@ import './App.css';
 // import MultipleInputs from './components/Form/MultipleInputs';
 // import OtherInput from './components/Form/OtherInput';
 // import UnControlled fr om './components/Form/UnControlled';
-import Navbar from './components/PropsDrilling/Navbar';
+// import Navbar from './components/PropsDrilling/Navbar';
+import Navbar from './components/ContextAPI/Navbar';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       {/* <MultipleInputs /> */}
       {/* <OtherInput /> */}
       {/* <UnControlled /> */}
+      {/* <Navbar /> */}
       <Navbar />
     </div>
   );
