@@ -22,7 +22,8 @@ import './App.css';
 // import OtherInput from './components/Form/OtherInput';
 // import UnControlled fr om './components/Form/UnControlled';
 // import Navbar from './components/PropsDrilling/Navbar';
-import Navbar from './components/ContextAPI/Navbar';
+// import Navbar from './components/ContextAPI/Navbar';
+import UseReducer from './components/useReducer/UseReducer';
 
 function App() {
   return (
@@ -48,7 +49,8 @@ function App() {
       {/* <OtherInput /> */}
       {/* <UnControlled /> */}
       {/* <Navbar /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <UseReducer />
     </div>
   );
 }

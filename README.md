@@ -149,3 +149,15 @@ The FormData Interface provides a way to construct a set of key/values pairs rep
 -- Context lets parent component make some information available to any component in the tree below it -- no matter how deep-- without passing it explicitly through props.
 
 --- This can be done in three steps 1. Create a context. 2. Use that context from the component that needs the data. 3. Provide that context from the component that specifies data.
+
+### UseReducer:
+
+---- It is a hook in React that allows you to add a reducer to the component. It takes in the reducer function and an initialState as arguments. The useReducer also returns an array of the current state and a dispatch function.
+
+     const [state, dispatch] = useReducer(reducer, initialState);
+
+
+       .state: It represents the current value and is set to initialize value during the initial render
+       .dispatch: It is a function that updates the state value and  always triggers a re-render, just like the updater function in useState.
+       .reducer : is a function that houses all the logic of how the state gets updated, it takes state and action as arguments and returns the next state.
+       .initialState: houses the initial value and can be of any type.
