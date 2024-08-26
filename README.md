@@ -169,3 +169,18 @@ When the component re-renders:
 - when the component's state or props change, React will re-render the component to reflect these changes.
 - when the parent element re-renders, even if the component's state or props have not changed.
 - lower state
+
+#### React.memo()
+
+- It is a higher-order component (HOC) in React that allows you to memoize a component. This means that if the input props to the component have not changed, the memoized component will return the same result from the previous render by avoiding unnecessary render cycles.
+- The React.memo function takes a functional component as its argument and returns a new component that has the same behavior, but with the added optimization of checking if the props have changed. If the props have not changed, the memoized component will return the cached result from the previous render.
+- React.memo(Component)- returns memoized component
+
+#### useCallBack Hook:
+
+- It is a hook in react that allows us to memoize a function. It takes two arguments: the first is the function that we want to memoize and the second is an array of dependencies. The hook will return a memoized version of the function that only changes if one of the values in dependency array changes.
+- By memoizing the function, we can avoid unnecessary re-renders and improve the performance of your React application. The function will only be recreated if one of its dependencies changes, otherwise the same instance of the function will be returned. This can be useful in situations where you have an expensive function that you only want to recompute when its dependencies changes.
+
+#### UseMemo Hook:
+
+- It is a hook in React

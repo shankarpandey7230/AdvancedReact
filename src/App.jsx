@@ -25,7 +25,8 @@ import './App.css';
 // import Navbar from './components/ContextAPI/Navbar';
 // import UseReducer from './components/useReducer/UseReducer';
 // import LowerState from './components/Performance/LowerState/index';
-import LowerStateChallenge from './components/Performance/LowerStateChallenge/index';
+// import LowerStateChallenge from './components/Performance/LowerStateChallenge/index';
+import LowerStateMemo from './components/Memo/index';
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <UseReducer /> */}
       {/* <LowerState /> */}
-      <LowerStateChallenge />
+      {/* <LowerStateChallenge /> */}
+      <LowerStateMemo />
     </div>
   );
 }
