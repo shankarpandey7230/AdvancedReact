@@ -26,7 +26,8 @@ import './App.css';
 // import UseReducer from './components/useReducer/UseReducer';
 // import LowerState from './components/Performance/LowerState/index';
 // import LowerStateChallenge from './components/Performance/LowerStateChallenge/index';
-import LowerStateMemo from './components/Memo/index';
+// import LowerStateMemo from './components/Memo/index';
+import LatestReact from './components/useTransition/index';
 
 function App() {
   return (
@@ -56,7 +57,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <LowerState /> */}
       {/* <LowerStateChallenge /> */}
-      <LowerStateMemo />
+      {/* <LowerStateMemo /> */}
+      <LatestReact />
     </div>
   );
 }

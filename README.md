@@ -183,4 +183,12 @@ When the component re-renders:
 
 #### UseMemo Hook:
 
-- It is a hook in React
+- It is a hook in React that allows you to memoize a value. It takes two arguments: the first is a function that returns the value we want to memoize and the second is an array of dependency. The hook will return the memoized value that will only change if one of the values in dependency array changes.
+- By memoizing a value we can avoid unnecessary calculations and improve the performance of our React Application. The value will only be recalculated if one of the dependencies changes, otherwise the same instance of the value will be returned. This can be useful in situations where we can have an expensive calculation that we want to recompute when its dependencies changes.
+
+#### useTransition:
+
+- It is a hook that lets you update the state without blocking the UI.
+- It returns two values:
+  --- 1. isPending- which indicates if a transition is currently in progress
+  --- 2. start Transition - which initiates that transition
